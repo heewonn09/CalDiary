@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#5BEDFB11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnCal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="     영양정보"
+            android:background="#FF5722"
+            android:textColor="#FDFDFD"
+            android:textSize="30sp" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/baseline_logout_24"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+        <EditText
+
+            android:id="@+id/edit"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="음식이름" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:onClick="mOnClick"
+            android:background="#6618F361"
+            android:text="검색"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/btnImage1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:text="BMI"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="열량"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="건강"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="식단"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="정보"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5BEDFB11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="                합병증정보"
+            android:textColor="#FDFDFD"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/baseline_logout_24"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/BtnObesity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="비만 정보"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/BtnObesityYT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="비만예방 유튜브"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#0000ff" />
+
+        <Button
+            android:id="@+id/BtnHBP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고혈압 정보"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/BtnHBPYT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고혈압예방 유튜브"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#0000ff" />
+
+        <Button
+            android:id="@+id/BtnHyLip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고지혈증 정보"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/BtnHyLipYT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고지혈증예방 유튜브"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#0000ff" />
+
+        <Button
+            android:id="@+id/BtnFatLiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지방간 정보"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/BtnFatLiverYT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지방간예방 유튜브"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="추가예정"
+            android:textAlignment="center"
+            android:textColor="#0000ff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:text="BMI"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="열량"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="건강"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:text="식단"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:text="정보"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

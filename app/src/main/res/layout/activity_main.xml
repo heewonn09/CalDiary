@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5BEDFB11">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calorie Diary"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="ID: 가입된 ID입력란"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtPw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password: 가입된 PW입력란"
+        android:layout_marginBottom="70dp"
+        android:password="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mainbtnLogin"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#6618F361"
+        android:text="Log In"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mainBtnJoin"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#6618F361"
+        android:text="Sign Up"
+        android:textSize="20sp" />
+</LinearLayout>
